@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    background-color: #fff;
+    width: 720px;
+    padding: 20px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 93%;
+}
+.btn{
+    width: 5%;
+    cursor: pointer;
+    background-color: rgb(152, 18, 156);
+    border: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.del{
+    background: transparent;
+    border: none;
+}
